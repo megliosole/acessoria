@@ -1,0 +1,187 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megliosole Energia Renovável LTDA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #f8f9fc;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: linear-gradient(90deg, #0077b6, #00b4d8);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 15px 0;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        header a:hover {
+            color: #ffdd00;
+        }
+
+        section {
+            padding: 100px 20px 60px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #0077b6;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background: #0077b6;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        .servicos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .servico {
+            background: #e9f6fb;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #cce7f0;
+            transition: 0.3s;
+        }
+
+        .servico:hover {
+            background: #d4f1f9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#empresa">Empresa</a>
+    <a href="#endereco">Endereço</a>
+    <a href="#socios">Sócios</a>
+    <a href="#atividades">Atividades</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+</header>
+
+<section id="empresa">
+    <h2>Dados da Empresa</h2>
+    <div class="card">
+        <p><strong>Razão Social:</strong> Megliosole Energia Renovável LTDA</p>
+        <p><strong>CNPJ:</strong> 26.646.540/0001-30</p>
+        <p><strong>Status:</strong> Ativa</p>
+        <p><strong>Data de Abertura:</strong> 16/11/2016</p>
+    </div>
+</section>
+
+<section id="endereco">
+    <h2>Endereço</h2>
+    <div class="card">
+        <p><strong>Logradouro:</strong> Avenida Ipiranga, 1715 – Centro Comercial Ipiranga</p>
+        <p><strong>Sala:</strong> 04</p>
+        <p><strong>Cidade/UF:</strong> Cuiabá – MT</p>
+        <p><strong>CEP:</strong> 78048-000</p>
+    </div>
+</section>
+
+<section id="socios">
+    <h2>Sócios e Administradores</h2>
+    <div class="card">
+        <p><strong>Fernando Milleo</strong> – Sócio Administrador</p>
+        <p><strong>Rafael Oliveira Silva</strong> – Sócio Administrador</p>
+    </div>
+</section>
+
+<section id="atividades">
+    <h2>Atividades Econômicas (CNAE)</h2>
+    <div class="card">
+        <p><strong>Principal:</strong> 46.49-4-01 – Comércio atacadista de equipamentos de energia elétrica</p>
+        <p><strong>Secundárias:</strong></p>
+        <ul>
+            <li>46.90-0-99 – Outros representantes comerciais e agentes do comércio</li>
+            <li>43.21-5-00 – Instalação e manutenção elétrica</li>
+        </ul>
+    </div>
+</section>
+
+<section id="servicos">
+    <h2>Principais Serviços</h2>
+    <div class="servicos-grid">
+        <div class="servico">Venda de Equipamentos Solares</div>
+        <div class="servico">Consultoria em Energia Renovável</div>
+        <div class="servico">Projetos de Instalação</div>
+        <div class="servico">Manutenção Elétrica</div>
+        <div class="servico">Atendimento Corporativo</div>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <div class="card">
+        <p><strong>Telefone:</strong> (65) 0000-0000</p>
+        <p><strong>E-mail:</strong> contato@megliosole.com.br</p>
+        <p><strong>Endereço:</strong> Avenida Ipiranga, 1715 – Centro Comercial Ipiranga, Sala 04, Cuiabá – MT, CEP: 78048-000</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 – Portal de Informações Empresariais</p>
+</footer>
+
+</body>
+</html>
